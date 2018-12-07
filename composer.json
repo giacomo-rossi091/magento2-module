@@ -1,6 +1,6 @@
 {
-    "name": "retorica/fgv-theme",
-    "description": "Modulo di supporto per la creazione del tema fgv",
+    "name": "giacomo/magento2-module",
+    "description": "Modulo di supporto per la creazione del tema magento2",
     "type": "magento2-module",
     "version": "0.1.0-alpha1",
     "license": [
@@ -9,7 +9,7 @@
     "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "Retorica\\FgvThemeModule\\": ""
+            "Giacomo\\Magento2Module\\": ""
         }
     }
 }

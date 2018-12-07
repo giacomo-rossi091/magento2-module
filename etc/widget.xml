@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+
+    <!-- Social Links -->
+    <widget class="Giacomo\Magento2Module\Block\Widget\SocialLinks" id="social-links">
+        <label>Social Links</label>
+        <description translate="true"></description>
+        <parameters>
+            <parameter name="facebook" sort_order="10" visible="true" xsi:type="text">
+                <label translate="true">Facebook</label>
+            </parameter>
+            <parameter name="instagram" sort_order="20" visible="true" xsi:type="text">
+                <label translate="true">Instagram</label>
+            </parameter>
+            <parameter name="linkedin" sort_order="30" visible="true" xsi:type="text">
+                <label translate="true">Linkedin</label>
+            </parameter>
+            <parameter name="youtube" sort_order="40" visible="true" xsi:type="text">
+                <label translate="true">Youtube</label>
+            </parameter>
+        </parameters>
+    </widget>
+
+    <!-- Social Sharing -->
+    <widget class="Retorica\Magento2Module\Block\Widget\SocialSharing" id="social-sharing">
+        <label>Social Sharing</label>
+        <description translate="true"></description>
+    </widget>
+
+</widgets>
